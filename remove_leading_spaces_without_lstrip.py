@@ -4,4 +4,6 @@
 
 user_input = input("Enter a statement with leading spaces: ")
 
-print(user_input)
+processed_string = user_input.split(maxsplit=3)
+
+print(processed_string)
