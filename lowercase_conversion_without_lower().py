@@ -7,4 +7,4 @@ statement = input("Enter a statement: ")
 result = "".join(chr(ord(c) + 32) if 'A' <= c <= 'Z' else c for c in statement)
 
 # Step 3: Display the result
-print(result)
+print("Lowercase string:", result)
