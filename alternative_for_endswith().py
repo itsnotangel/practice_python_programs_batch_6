@@ -4,6 +4,7 @@
 statement = input("Enter a statement: ")
 
 # Step 2: Check if the statement ends with "ment" without using endswith()
+suffix = "ment" # The suffix to check
 
 # Step 3: Display the result
-print(statement)
+print(ends_with)
