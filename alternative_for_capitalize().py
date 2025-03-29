@@ -1,5 +1,8 @@
 # Program 9: Capitalize the first letter of a string without using capitalize()
 
-# Step 1: Get user input
-# Step 2: Capitalize the first letter and make all others lowercase
-# Step 3: Display the result
+# Get user input
+statement = input("Enter a statement: ")
+
+# Capitalize the first letter and make all others lowercase
+# Display the result
+print(statement)
