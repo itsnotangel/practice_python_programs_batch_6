@@ -14,4 +14,4 @@ for c in statement:
         result += c
 
 # Step 3: Display the result
-print(result)
+print("Swapped case string:", result)
