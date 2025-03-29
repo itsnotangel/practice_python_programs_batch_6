@@ -9,4 +9,4 @@ if len(statement) < padding_length:
     statement += " " * (padding_length - len(statement))
 
 # Display the result
-print(statement)
+print("Padded statement:'"+ statement , "'")
