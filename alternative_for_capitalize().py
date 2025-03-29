@@ -7,4 +7,4 @@ statement = input("Enter a statement: ")
 result = (statement[0].upper() + statement[1:].lower()) if statement else statement
 
 # Display the result
-print(result)
+print("Capitalized string:", result)
