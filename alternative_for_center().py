@@ -10,6 +10,6 @@ if len(statement) < width:
     left_padding = total_padding // 2
     right_padding = total_padding - left_padding
     statement = " " * left_padding + statement + " " * right_padding
-    
+
 # Display the result
-print(statement)
+print("Centered text:'" + statement + "'")
