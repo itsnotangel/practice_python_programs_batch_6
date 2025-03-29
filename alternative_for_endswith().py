@@ -1,9 +1,9 @@
 # Program 5: Check if a string ends with a specific substring without using endswith()
 
-# Step 1: Get user input
+# Get user input
 statement = input("Enter a statement: ")
 
-# Step 2: Check if the statement ends with "ment" without using endswith()
+# Check if the statement ends with "ment" without using endswith()
 suffix = "ment" # The suffix to check
 if len(suffix) <= len(statement):
     statement_end = statement[-len(suffix):]
@@ -11,5 +11,5 @@ if len(suffix) <= len(statement):
 else:
     ends_with = False
 
-# Step 3: Display the result
-print(ends_with)
+# Display the result
+print("Does it end with 'ment'?:", "Yes" if ends_with else "No")
