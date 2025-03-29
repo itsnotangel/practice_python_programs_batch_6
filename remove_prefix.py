@@ -3,9 +3,5 @@
 # Prompt user to enter a statement
 statement = input("Enter a statement with a prefix: ")
 
-# Check if the statement is not empty
-# Remove the first character if the statement is not empty
-# Print the processed statement
-
-
-print(statement)
+# Remove first character if not empty then print the string without prefix
+print("String without prefix:", statement[1:] if statement else statement)
