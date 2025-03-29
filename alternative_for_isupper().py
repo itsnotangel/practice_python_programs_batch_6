@@ -4,5 +4,11 @@
 statement = input("Enter a statement: ")
 
 # Step 2: Check if all characters are uppercase without using isupper()
+is_upper = True
+for c in statement:
+    if 'a' <= c <= 'z':
+        is_upper = False
+        break
+
 # Step 3: Display the result
-print(statement)
+print(is_upper)
