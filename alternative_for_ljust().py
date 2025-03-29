@@ -5,6 +5,8 @@ statement = input("Enter a statement: ")
 
 # Add spaces to the end of the statement to match the specified length without using ljust()
 padding_length = 10 # Desired length
+if len(statement) < padding_length:
+    statement += " " * (padding_length - len(statement))
 
 # Display the result
 print(statement)
