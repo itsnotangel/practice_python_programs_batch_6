@@ -4,4 +4,4 @@
 statement = input("Enter a statement with a prefix: ")
 
 # Remove first character if not empty then print the string without prefix
-print("String without prefix:", statement[1:] if statement else statement)
+print("String without prefix:",  statement[3:] if statement.startswith("Ang") else statement)
