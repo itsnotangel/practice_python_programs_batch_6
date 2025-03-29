@@ -4,5 +4,7 @@
 statement = input("Enter a statement: ")
 
 # Capitalize the first letter and make all others lowercase
+result = (statement[0].upper() + statement[1:].lower()) if statement else statement
+
 # Display the result
-print(statement)
+print(result)
