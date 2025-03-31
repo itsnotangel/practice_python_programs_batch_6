@@ -8,6 +8,9 @@ char_to_count = input("Enter the character to count: ")
 count = 0
 
 # Loop through each character in the string and check if it matches the target character
+for char in statement:
+    if char == char_to_count:
+        count += 1
 
 # Print the result
-print(statement)
+print(count)
