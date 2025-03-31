@@ -12,4 +12,4 @@ else:
     right_justified_statement = statement
 
 # Print the result
-print(right_justified_statement)
+print("Right-justified statement:", right_justified_statement)
