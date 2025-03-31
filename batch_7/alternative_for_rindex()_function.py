@@ -12,4 +12,4 @@ for i in range(len(statement) - 1, -1, -1):
         break
 
 # Print the result
-print(last_index)
+print("Last occurrence index:", last_index)
