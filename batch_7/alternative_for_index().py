@@ -4,6 +4,10 @@
 statement = input("Enter a statement: ")
 
 # Check the location of the parameter in the string
+for i, char in enumerate(statement):
+    if char == "w":
+        index = i
+        break
 
 # Print the result
-print(statement)
+print(index)
