@@ -7,6 +7,7 @@ statement = input("Enter a statement: ")
 substring = input("Enter the substring to check for: ")
 
 # Check if the string starts with the substring manually
-
-# Print result
-print(statement)
+if statement[:len(substring)] == substring:
+    print("Yes")
+else:
+    print("No")
