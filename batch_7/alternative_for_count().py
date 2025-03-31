@@ -13,4 +13,4 @@ for char in statement:
         count += 1
 
 # Print the result
-print(count)
+print("Number of occurences in the statement:", count)
