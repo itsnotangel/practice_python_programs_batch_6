@@ -10,4 +10,4 @@ for i, char in enumerate(statement):
         break
 
 # Print the result
-print(index)
+print("The first occurence is at:", index)
