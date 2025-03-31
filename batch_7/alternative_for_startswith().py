@@ -8,6 +8,6 @@ substring = input("Enter the substring to check for: ")
 
 # Check if the string starts with the substring manually
 if statement[:len(substring)] == substring:
-    print("Yes")
+    print("The statement starts with" , substring + ".")
 else:
-    print("No")
+    print("The statement does not start with", substring + ".")
