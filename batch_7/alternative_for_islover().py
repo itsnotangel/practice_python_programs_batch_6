@@ -4,6 +4,7 @@
 statement = input("Enter a statement: ")
 
 # Check if all characters are lowercase manually
-
-# Print result
-print(statement)
+if all('a' <= char <= 'z' or not char.isalpha() for char in statement):
+    print("Yes")
+else:
+    print("No")
