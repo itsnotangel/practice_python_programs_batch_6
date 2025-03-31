@@ -4,5 +4,7 @@
 statement = input("Enter a statement: ")
 
 # Convert to uppercase manually
+uppercase_statement = "".join(chr(ord(char) - 32) if 'a' <= char <= 'z' else char for char in statement)
+
 # Print the result
-print(statement)
+print(uppercase_statement)
